@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Interact with me</title>
+        <script src="interact.js">
+        </script>
+    </head>
+    <body>
+        <h1>Let's have some fun</h1>
+        <p>Click on something:</p>
+        <table>
+            <tr>
+                <td><button class="btn btn-light" onclick="showMessage('happy')">&#128522</button></td>
+                <td><button class="btn btn-light" onclick="showMessage('love')">&#128525</button></td>
+                <td><button class="btn btn-light" onclick="showMessage('hifive')">&#128588</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn btn-light" onclick="showMessage('sad')">&#128532</button></td>
+                <td><button class="btn btn-light" onclick="showMessage('angry')">&#128544</button></td>
+                <td><button class="btn btn-light" onclick="showMessage('worry')">&#128549</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn btn-light" onclick="showMessage('avocado')">&#129361</button></td>
+                <td><button class="btn btn-light" onclick="showMessage('present')">&#127873</button></td>
+                <td><button class="btn btn-light" onclick="showMessage('dog')">&#128054</button></td>
+            </tr>
+            </table><br>
+        <div class="alert alert-primary" id="response_box" role="alert">
+            <p id="response_text"></p>
+            </div>
+
+        <p>Go to other pages:</p>
+        <div>
+        <select id="pages">
+                <option value="index">Homepage</option>
+                <option value="activities">My favourite activities</option>
+                <option value="foods">My favourite foods</option>
+            </select>
+            <input class="btn btn-primary" type="button" value="Go" onclick="accesspage()">
+        </div>
+    </body>
+</html>

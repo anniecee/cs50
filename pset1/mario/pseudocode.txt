@@ -1,0 +1,4 @@
+Prompt user to input height between 1 - 10
+If input value is out of range, prompt to input again
+Iterate from 1 to height
+On interation i, print (height-i) space, print i hashs for left side, print 2 spaces as gap, print i hashs for right side, then enter new line

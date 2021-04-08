@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>My homepage</title>
+        <script src="index.js">
+        </script>
+    </head>
+    <body>
+        <h1>My homepage</h1>
+        <p>
+            Welcome!<br>
+            Let's get to know each other.<br>
+        </p>
+        <div>
+            <p>What is your name?</p>
+            <form onsubmit="showoptions(); return false">
+                <label for="guestname">Name: </label>
+                <input type="text" id="guestname">
+                <input class="btn btn-primary" type="submit" value="Submit">
+            </form><br>
+            <p id="sayhello"></p>
+        </div>
+        <div id="gettoknow">
+            <p>What do you want to know about me?</p>
+            <select id="pages">
+                <option value="activities">My favourite activities</option>
+                <option value="foods">My favourite foods</option>
+                <option value="interact">Let's have fun!</option>
+            </select>
+            <input class="btn btn-primary" type="button" value="Go" onclick="accesspage()">
+        </div>
+    </body>
+</html>

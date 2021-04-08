@@ -1,0 +1,44 @@
+body {
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h1 {
+  color: #191970;
+  text-align: center;
+  font-size: 30px;
+  font-family: Georgia, serif;
+}
+
+p {
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 20px;
+}
+
+div {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  font-family: Georgia, serif;
+  font-size: 20px;
+}
+
+img {
+    width:  300px;
+    height: auto;
+    object-fit: cover;
+}
+
+
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#gettoknow, #response_box {
+  display: none;
+}
